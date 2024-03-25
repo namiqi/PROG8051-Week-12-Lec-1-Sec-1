@@ -1,0 +1,27 @@
+﻿<Window x:Class="PROG8051_Week_12_Lec_1_Sec_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROG8051_Week_12_Lec_1_Sec_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="datagrid"  Margin="340,44,28,217"/>
+        <Button Content="Read" HorizontalAlignment="Left" Margin="225,105,0,0" VerticalAlignment="Top" Height="35" Width="75" Click="Button_Click"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="32,19,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="fname" HorizontalAlignment="Left" Margin="35,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="32,81,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="lname" HorizontalAlignment="Left" Margin="35,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Age" HorizontalAlignment="Left" Margin="32,143,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="age" HorizontalAlignment="Left" Margin="35,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="32,210,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="gender" HorizontalAlignment="Left" Margin="35,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Program" HorizontalAlignment="Left" Margin="32,276,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="program" HorizontalAlignment="Left" Margin="35,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Create" HorizontalAlignment="Left" Margin="225,176,0,0" VerticalAlignment="Top" Height="30" Width="75" Click="Button_Click_1"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="225,232,0,0" VerticalAlignment="Top" Height="30" Width="75" Click="Button_Click_2"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="225,289,0,0" VerticalAlignment="Top" Height="30" Width="75" Click="Button_Click_3"/>
+
+    </Grid>
+</Window>
